@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(209, 209, 146);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+    perspective: 400px;
+}
+
+.card {
+    border-radius: 4px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    background: aqua;
+    margin: 3px;
+    box-shadow: 0 0 2px #000;
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+
+.reversed {
+    transition-duration: 1s;
+    transform: rotateY(180deg);
+}
