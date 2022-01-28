@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eecccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    text-shadow: black 2px 2px 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 380px;
+}
+
+.square {
+    border-radius: 0px;
+    height: 16px;
+    width: 16px;
+    background-color: #1d1d1d;
+    margin: 0px;
+    box-shadow: rgb(83, 51, 3) 2px 2px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    box-shadow: 0 0 5px #000;
+}
+
+.square:hover {
+    transition-duration: 0s;
+}
