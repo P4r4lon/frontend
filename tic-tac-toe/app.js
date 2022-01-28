@@ -25,11 +25,11 @@ function markSquare(element) {
             let url = ""
             let val = ""
             if (state) {
-                url = 'url("x.png")'
+                url = 'url("img/x.png")'
                 val = "x"
                 state = false
             } else {
-                url = 'url("o.png")'
+                url = 'url("img/o.png")'
                 val = "o"
                 state = true
             }
